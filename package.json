@@ -1,0 +1,15 @@
+{
+  "name": "next-biletopoisk",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server/simple_api && npm run start"
+  },
+  "keywords": [],
+  "author": "bernizhel <detrop.1995@gmail.com> (https://github.com/bernizhel)",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
