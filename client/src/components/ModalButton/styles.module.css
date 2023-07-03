@@ -1,0 +1,15 @@
+.button {
+    padding: 16px 8px;
+    border-radius: 8px;
+    border: var(--orange) 2px solid;
+}
+
+.yes {
+    background: var(--orange);
+    color: var(--white);
+}
+
+.no {
+    background: #0000;
+    color: var(--orange);
+}
