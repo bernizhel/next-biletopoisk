@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  background-color: #0008;
+}
+
+.modal {
+  position: absolute;
+  padding: 24px;
+  background-color: #FFF;
+  border-radius: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.question {
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.next {
+  margin-left: 8px;
+}
+
+.close {
+  cursor: pointer;
+}

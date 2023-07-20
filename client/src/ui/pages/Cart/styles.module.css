@@ -1,0 +1,21 @@
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loader {
+  padding: 64px 16px;
+  align-self: stretch;
+  border-radius: 8px;
+  margin: 10px;
+}

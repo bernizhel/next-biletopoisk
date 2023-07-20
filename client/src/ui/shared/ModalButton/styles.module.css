@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 51px;
+  height: 40px;
+  color: #fff;
+  background-color: #F50;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.container:hover,
+.container:focus {
+  background-color: #E94E00;
+}
+
+.focus {
+  width: 57px;
+  color: #F50;
+  border: 1px solid #F50;
+  background-color: inherit;
+}
+
+.focus:hover,
+.focus:focus {
+  background-color: inherit;
+  border: 1px solid #E94E00;
+  color: #E94E00;
+}

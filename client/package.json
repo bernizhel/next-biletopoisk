@@ -1,22 +1,35 @@
 {
-  "name": "next-biletopoisk",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "20.3.1",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "eslint": "8.43.0",
-    "eslint-config-next": "13.4.7",
-    "next": "13.4.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.1.3"
-  }
+    "name": "next-biletopoisk",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "eslint": "next lint",
+        "stylelint": "stylelint '**/*.css'",
+        "stylelint:fix": "stylelint --fix '**/*.css'",
+        "prettier": "prettier --check '**/*'",
+        "prettier:fix": "prettier --write '**/*'"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.5",
+        "@types/node": "20.3.1",
+        "@types/react": "18.2.14",
+        "@types/react-dom": "18.2.6",
+        "classnames": "^2.3.2",
+        "next": "13.4.7",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-redux": "^8.1.1",
+        "react-select": "^5.7.4",
+        "typescript": "5.1.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.45.0",
+        "eslint-config-next": "^13.4.10",
+        "prettier": "^3.0.0",
+        "stylelint": "^15.10.1",
+        "stylelint-config-standard": "^34.0.0"
+    }
 }

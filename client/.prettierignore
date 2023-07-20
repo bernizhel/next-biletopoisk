@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except
+!*/
+
+!*.js
+!*.ts
+!*.jsx
+!*.tsx
+!*.json
+!*rc

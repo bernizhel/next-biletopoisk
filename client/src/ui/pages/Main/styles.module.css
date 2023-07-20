@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+

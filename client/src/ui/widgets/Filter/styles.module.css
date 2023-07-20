@@ -1,0 +1,38 @@
+.filter {
+  display: flex;
+  width: 25%;
+  min-height: calc(100vh - 225px);
+  padding: 24px;
+  margin: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+.filter-type {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.filter-type-title {
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.filter-input {
+  display: flex;
+  height: 40px;
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border-default, #E1E3E6);
+}

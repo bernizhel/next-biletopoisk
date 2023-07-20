@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  width: 96%;
+  margin: 1% 2% 2%;
+  border-radius: 8px;
+  background: #FFF;
+  gap: 16px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  overflow-y: auto;
+}

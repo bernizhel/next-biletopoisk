@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  padding-top: 100px;
+}

@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #fffb;
+  margin: 20px;
+  width: 100%;
+}
+
+.text {
+  font-weight: bold;
+}

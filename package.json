@@ -2,14 +2,25 @@
   "name": "next-biletopoisk",
   "version": "1.0.0",
   "scripts": {
+    "prepare": "husky install",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client:dev\"",
+    "build": "cd client && npm run build",
     "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "client": "cd client && npm run dev",
-    "server": "cd server/simple_api && npm run start"
+    "client": "cd client && npm start",
+    "client:dev": "cd client && npm run dev",
+    "server": "cd server/simple_api && npm run start",
+    "install-deps": "npm ci && cd client && npm ci && cd ../server/simple_api && npm ci",
+    "install-deps:pnpm": "pnpm i && cd client && pnpm i && cd ../server/simple_api && pnpm i",
+    "install-deps:yarn": "yarn install && cd client && yarn install && cd ../server/simple_api && yarn install",
+    "uninstall-deps": "rm -r node_modules && cd client && rm -r node_modules && cd ../server/simple_api && rm -r node_modules"
   },
   "keywords": [],
   "author": "bernizhel <detrop.1995@gmail.com> (https://github.com/bernizhel)",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^8.2.0"
+    "@commitlint/config-conventional": "^17.6.6",
+    "commitlint": "^17.6.6",
+    "concurrently": "^8.2.0",
+    "husky": "^8.0.3"
   }
 }

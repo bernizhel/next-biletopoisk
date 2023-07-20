@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #fffb;
+  margin: 0 20px;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.image {
+  border-radius: 8px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.title {
+  color: var(--text-primary, #1B1F23);
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.genre {
+  color: var(--text-primary, #1B1F23);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.controls {
+  display: inline-flex;
+}
